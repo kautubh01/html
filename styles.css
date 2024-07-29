@@ -9,18 +9,20 @@
   --img-abstract-text: #ffffff;
 }
 
-@media (prefers-color-scheme:  dark) {
+@media (prefers-color-scheme: dark) {
   :root {
-    --bad-example-text: gray;
-
-    --yesno-yes-bg: #004000;
-
-    --control-glyph-text: #d50606;
-
-    --img-abstract-bg: #424242;
-    --img-abstract-text: #ffffff;
+    --bad-example-text: #b0b0b0; /* Light gray for better readability */
+    
+    --yesno-yes-bg: #006400; /* Darker green for better contrast */
+    
+    --control-glyph-text: #ff4c4c; /* Brighter red for visibility */
+    
+    --img-abstract-bg: #333333; /* Slightly lighter background for less harshness */
+    --img-abstract-text: #f0f0f0; /* Off-white text for better readability */
   }
 }
+
+
 
 iframe { border: 0; }
 
